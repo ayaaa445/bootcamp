@@ -1,0 +1,19 @@
+table, th, td {
+    border: 1px solid black;
+    empty-cells: hide; /* values; show or hide */
+    border-collapse: collapse; /* valies; collapse or separete */
+    border-spacing: 10px; 
+}
+
+table {
+    width: 100px;
+}
+
+.heading{
+    background: tomato;
+    color: white;
+}
+
+.bg-brown{
+    background: wheat;
+}

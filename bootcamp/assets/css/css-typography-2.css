@@ -1,0 +1,75 @@
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.decoration-overline {
+    text-decoration: overline;
+}
+
+.decoration-line-through {
+    text-decoration: line-through;
+}
+
+.decoration-underline {
+    text-decoration: underline;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.text-shodow {
+    text-shadow: 2px 2px 3px #000;
+}
+
+.text-indent-px {
+    text-indent:  10px;
+}
+
+.text-indent-percent {
+    text-indent: 5%;
+}
+
+.text-indent-em {
+    text-indent: 5em;
+}
+
+.letter-spacing-5px {
+    letter-spacing: 5px;
+}
+
+.letter-spacing-10px {
+    letter-spacing: 10px;
+}
+
+.letter-spacing-15px {
+    letter-spacing: 15px;
+}
+
+.word-spacing-5px {
+    word-spacing: 5px;
+}
+
+.word-spacing-10px {
+    word-spacing: 10px;
+}
+
+.word-spacing-15px {
+    word-spacing: 15px;
+}

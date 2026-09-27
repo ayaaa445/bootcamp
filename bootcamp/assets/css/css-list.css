@@ -1,0 +1,16 @@
+ul {
+    list-style-type: circle; /* values: circle, square, disc, none */ 
+    list-style-position: outside;
+}
+
+ol {
+    list-style-type: decimal; 
+    list-style-position: inside;
+    /*
+        lower-alpha
+        decimal
+        upper-alpha
+        lower-roman
+        upper-roman
+    */
+}

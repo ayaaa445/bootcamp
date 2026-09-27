@@ -1,0 +1,46 @@
+.block-box {
+    /*
+        note:In the HTML, the <span> element is an exampl of filine elemant. But here in the CSS we are giving it a display: black so that it accepts width and height. 
+    */  
+
+    display: block;
+    background: #bfdbfe;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background: yellow;
+    /*
+        Note: The width: 200px below is ignored by inline elements
+    */
+    width: 200px;
+}
+
+.box {
+    /*
+        note: by using inlime-block, the element is activing like a block, but sitting as inline, and now it assept (respect) the width the height added into it.
+    */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #d1febf;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*
+    this will hide the Box B complletely (User cannot see this box)
+*/
+.hidden-box {
+    /* This our topic: Display None */
+    display: none;
+}
+
+.visible-box {
+    background: rgb(239, 241, 131);
+    padding: 10px;
+}

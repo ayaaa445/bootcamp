@@ -1,0 +1,37 @@
+/* external CSS */
+
+h1 {
+    background-color: green;
+}
+
+h2 {
+    background-color: goldenrod;
+}
+
+* {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#id-name {
+    color: darkred;
+}
+
+h3.header1 {
+    color: gold;
+}
+
+h3 {
+    color: salmon;
+}
+
+ul li {
+    color: red;
+}
+
+.nav-links li {
+    color: blueviolet;
+}

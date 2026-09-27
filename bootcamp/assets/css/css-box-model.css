@@ -1,0 +1,162 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+
+.box3 {
+    width: 400px;
+    height: 400px;
+    background: orange;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background: yellowgreen;
+
+    padding: 10px;
+
+    /* padding: t&b, l&r */
+    /* padding: 10px 5px; */
+
+    /* padding: t, l&r, b */
+    /* padding: 10px 5px 15px; */
+
+    /* padding: t, r, b, l */
+    /* padding: 10px 0 10px 0; */
+
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    /* margin: 20px; */
+
+    /* margin: t&b, l&r */
+    /* margin: 10px 5px; */
+
+    /* margin: t, l&r, b */
+    /* margin: 10px 5px 15px; */
+
+    /* margin: t, r, b, l */
+    /* margin: 10px 0 10px 0; */
+
+    margin-top: 10px;
+    /* margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+
+}
+
+.solid {
+    border-style: solid;
+    border-width: 10px;
+    border-color: tomato;
+}
+
+.dotted {
+    border-style: dotted;
+    border-width: 10px;
+    border-color: teal;
+}
+
+.dashed {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: crimson;
+}
+
+.double {
+    border-style: double;
+    border-width: 10px;
+    border-color: seagreen;
+}
+
+.groove {
+    border-style: groove;
+    border-width: 10px;
+    border-color: purple;
+}
+
+.ridge {
+    border-style: ridge;
+    border-width: 10px;
+    border-color: gray;
+}
+
+.inset {
+    border-style: inset;
+    border-width: 10px;
+    border-color: dodgerblue;
+}
+.outset {
+    border-style: outset;
+    border-width: 10px;
+    border-color: goldenrod;
+}
+
+.border-shorthand {
+    border: 5px dashed pink;
+}
+
+.individual-border {
+    height: 100px;
+    border-top: 5px solid red;
+    border-bottom: 5px dotted green;
+    border-right: 10px double blue;
+    border-left: 15px dashed purple;
+}
+
+.hidden {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.scroll {
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+    overflow: scroll;
+}
+
+.box-shadow {
+    box-shadow: 10px 15px 10px 5px crimson;
+}
+
+.content-box {
+    border: 5px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.border-box {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text-center {
+    width: 500px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.center-content {
+    width: 500px;
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+}

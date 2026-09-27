@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid black;
+    empty-cells: hide; /* values; show or hide */
+    border-collapse: separate; /* valies; collapse or separete */
+    border-spacing: 15px 20px; 
+    /*
+        first value: adjusts left and right spaces
+        second value: adjusts top and bottom spaces
+    */ 
+}
+
+table {
+    width: 500px;
+}

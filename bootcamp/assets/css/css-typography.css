@@ -1,0 +1,64 @@
+.color-name {
+    color: salmon;
+}
+
+.rgb {
+    color: rgb(250, 128, 114);
+    opacity: 0.5;
+}
+
+.rgba {
+    color: rgba(250, 128, 114, 0.3);
+}
+
+.hexcode {
+    color: #fa8072;
+}
+
+.serif { 
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.font-px {
+    font-size: 50px;
+}
+
+.font-em {
+    font-size: 5em;
+}
+
+.font-perc {
+    font-size: 300%;
+}
+
+.fw-bold {
+    font-weight: 900;
+}
+
+.fw-nomal {
+    font-weight: normal;
+}
+
+.fw-light {
+    font-weight: lighter;
+}
+
+.fst-italic {
+    font-style: italic;
+}
+
+.fst-nomal {
+    font-style: normal;
+}
+
+.fst-oblique {
+    font-style: oblique;
+}
